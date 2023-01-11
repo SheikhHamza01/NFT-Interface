@@ -1,0 +1,908 @@
+body {
+
+    background-color: #13111A;
+}
+
+/* FRONT PAGE */
+header {
+    background-color: #13111A;
+    margin: 0%;
+    margin-left: 1%;
+    overflow: hidden;
+}
+
+.main-logo {
+    margin-left: 3%;
+    cursor: pointer;
+}
+
+.navi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1%;
+}
+
+.navi ul {
+    overflow: auto;
+    margin: 0%;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+
+.navi li {
+    float: left;
+    list-style: none;
+    margin: 12px 30px;
+
+}
+
+
+.navi li a {
+    text-decoration: none;
+    padding: 3px 3px;
+    color: rgb(255, 255, 255);
+
+}
+
+.btn {
+    background: #13111A;
+    width: 120%;
+    border-image-source: linear-gradient(to left, #A8008A 0.88%, #F9CA72 100.87%);
+    color: white;
+    padding: 11% 1% 9% 1%;
+    border-width: 3%;
+    border-image-slice: 1;
+    border-radius: 22px;
+    cursor: pointer;
+
+
+}
+
+.about {
+    height: 360px;
+    width: 90%;
+    margin-left: 5%;
+    top: 161px;
+    border-radius: 22px;
+    background: #1D1A27;
+
+}
+
+.abouttxt {
+    width: 60%;
+    display: inline-block;
+    color: #B7B4C7;
+    margin-left: 5%;
+    overflow: hidden;
+}
+
+.anchor{
+    color: #B7B4C7;
+    text-decoration: none;
+}
+
+.content {
+    color: white;
+    width: 27%;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    text-align: justify;
+
+}
+
+.vector-img {
+    margin-left: 1%;
+}
+
+.para {
+    width: 50%;
+    text-align: justify;
+}
+
+.nftlogo {
+    width: 34%;
+    display: inline-block;
+
+}
+
+.imgnft {
+    height: 321px;
+    margin-left: 15%;
+    padding: 5% 0% 0%;
+}
+
+.blocks {
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.nft {
+    height: 377px;
+    width: 382px;
+    left: 121px;
+    top: 762.0000305175781px;
+    border-radius: 22px;
+    background: #1D1A27;
+    display: inline-block;
+    color: #B7B4C7;
+    overflow: hidden;
+
+}
+
+.block-content {
+    color: white;
+}
+
+.block-area {
+    margin-left: 7%;
+}
+
+.log {
+    width: 17%;
+    height: 16%;
+}
+
+.stake {
+    height: 377px;
+    width: 382px;
+    left: 121px;
+    top: 762.0000305175781px;
+    border-radius: 22px;
+    background: #1D1A27;
+    display: inline-block;
+    margin-left: 2%;
+    overflow: hidden;
+    color: #B7B4C7;
+}
+
+.vote {
+    height: 377px;
+    width: 382px;
+    left: 121px;
+    top: 762.0000305175781px;
+    border-radius: 22px;
+    background: #1D1A27;
+    display: inline-block;
+    margin-left: 2%;
+    overflow: hidden;
+    color: #B7B4C7;
+}
+
+.token {
+    height: 600px;
+    width: 90%;
+    left: 121px;
+    top: 1174px;
+    border-radius: 22px;
+    background: #1D1A27;
+    margin-left: 5%;
+    margin-top: 5%;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.img-area {
+    width: 55%;
+    overflow: hidden;
+    display: inline-block;
+    height: 606px;
+
+}
+
+.img-token {
+    height: 600px;
+    width: 90%;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.token-text {
+    overflow: hidden;
+    width: 35%;
+    display: inline-block;
+    margin-left: 5%;
+    color: #B7B4C7;
+    text-align: justify;
+    text-align: right;
+    margin-bottom: 3%;
+
+
+}
+
+.bless-heading {
+
+    margin-top: 2%;
+}
+
+.token-heading {
+    color: white;
+}
+
+.search {
+    height: 150px;
+    width: 90%;
+    left: 121px;
+    top: 1860px;
+    border-radius: 25px;
+    margin-left: 5%;
+    margin-top: 5%;
+    background: #1D1A27;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.stats {
+    height: 150px;
+    width: 30%;
+    border-radius: 16px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.stats-img {
+    width: 30%;
+    height: 100px;
+    margin-left: 7%;
+    margin-top: 7%;
+    overflow: hidden;
+}
+
+.search-txt {
+    height: 150px;
+    display: inline-block;
+    color: white;
+    width: 25%;
+    overflow: hidden;
+}
+
+.rearity-txt {
+    margin-top: 20%;
+
+}
+
+.search-bar {
+    height: 150px;
+    width: 35%;
+    left: 720px;
+    top: 1903px;
+    border-radius: 16px;
+    display: inline-block;
+    overflow: hidden;
+
+}
+
+.bar {
+    background-color: #302C3F;
+    text-decoration-color: #B7B4C7;
+    /* color: #1D1A27; */
+    padding: 5% 8% 5% 16%;
+    border-radius: 15px;
+    width: 100%;
+    margin-top: 10%;
+    border: none;
+    text-emphasis-style: bold;
+    font-weight: 500;
+}
+
+.footer {
+    border-top: #45434e solid;
+    margin-top: 2%;
+    height: 533.0074462890625px;
+    width: 100%;
+    left: 0px;
+    top: 2px;
+    border-radius: 0px;
+    background-color: #13111A;
+}
+
+.co-logo {
+    width: 30%;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.co-img {
+    margin-top: 65%;
+    margin-left: 25%;
+
+}
+
+.list {
+    width: 15%;
+    overflow: hidden;
+    display: inline-block;
+    color: white;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.footer-heading {
+    margin-left: 19%;
+}
+
+.unorder-list {
+    list-style-type: none;
+    color: #B7B4C7;
+    text-decoration: none;
+
+}
+
+.anchor-footer{
+    color: #B7B4C7;
+    text-decoration: none;
+}
+
+.icons {
+    width: 50%;
+    display: inline-block;
+    overflow: hidden;
+    color: #B7B4C7;
+    text-align: right;
+}
+
+.icon-img {
+    width: 7%;
+    height: 8%;
+    cursor: pointer;
+
+}
+
+.email-bar {
+    width: 50%;
+    background-color: #302C3F;
+    border-radius: 22px;
+    padding: 2% 5% 2% 5%;
+    border: none;
+    font-weight: 600;
+}
+
+.btn-1 {
+    padding: 2% 1% 2% 1%;
+    border: 2px solid transparent;
+    border-radius: 22px;
+    background: #13111A;
+    size: 2%;
+    width: 15%;
+    color: white;
+    font-weight: bold;
+    border-image-source: linear-gradient(to left, #A8008A 0.88%, #F9CA72 100.87%);
+    border-image-slice: 5;
+    cursor: pointer;
+}
+
+/* ABOUT PAGE */
+
+.about-main{
+    width: 90%;
+    background-color: #13111A;
+    margin-left: 5%;
+
+}
+
+.about-head{
+    color: white;
+    text-align: center;
+}
+.divpara{
+    width: 45%;
+    margin-left: 28%;
+}
+
+.about-para{
+    color: #B7B4C7;
+    text-align: center;
+    
+}
+
+.about-block-area{
+    height: 213.2472686767578px;
+width: 250px;
+border-radius: 26px;
+background-color: #1D1A27;
+
+}
+.about-blocks{
+    display: inline-block;
+    overflow: hidden;
+    margin-left: 3%;
+    margin-top: 4%;
+}
+.about-block-head{
+    color: white;
+    text-align: center;
+}
+.about-block-para{
+    text-align: center;
+    color: #B7B4C7;
+    margin-top: 33%;
+}
+
+.about-paragraphs{
+    width: 90%;
+    background-color: #13111A;
+    margin-left: 8%;
+    margin-top: 5%;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.section1{
+    display: inline-block;
+    overflow: hidden;
+    width: 44%;
+}
+
+
+.section2{
+    display: inline-block;
+    overflow: hidden;
+    width: 44%;
+    text-align: right;
+}
+
+.section-img{
+    width: 85%;
+}
+
+.about-team{
+    margin-top: 5%;
+    text-align: center;
+    color: white;
+}
+
+.team-area{
+    width: 100%;
+    display: inline-block;
+    overflow: hidden;
+    color: #13111A;
+
+}
+
+.teams{
+    width: 19%;
+    margin-left: 5%;
+    margin-top: 4%;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.team-img{
+    width: 100%;
+    border-radius: 22px;
+}
+
+
+/* NFT PAGE */
+
+.buy{
+    width: 90%;
+    overflow: hidden;
+    display: inline-block;
+    background-color: #1D1A27;
+    border-radius: 22px;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.buy-nft{
+    width: 25%;
+    display: inline-block;
+    overflow: hidden;
+    margin-left: 8%;
+    margin-top: 5%;
+}
+
+.buy-nft-img{
+    border: 22px;
+}
+
+.buy-btn{
+    border-radius: 22px;
+    color: black;
+    background: #01C738;
+    padding: 2% 1% 2% 1%;
+    width: 30%;
+    cursor: pointer;
+    margin-bottom: 4%;
+    border: none;
+
+
+}
+
+/* VOTE PAGE */
+
+.vote-btn{
+    border-radius: 22px;
+    color: black;
+    background: #F9CA72;
+    padding: 2% 1% 2% 1%;
+    width: 30%;
+    cursor: pointer;
+    margin-bottom: 4%;
+    border: none;
+}
+
+/* FAQS PAGE */
+
+.questions {
+    width: 90%;
+    margin-left: 8%;
+    margin-top: 5%;
+
+}
+
+.q1side {
+    width: 40%;
+    display: inline-block;
+    overflow: hidden;
+    text-align: justify;
+}
+
+.ques {
+    color: white;
+    font-weight: bold;
+}
+
+.ans {
+    color: #B7B4C7;
+}
+
+.btn-2 {
+    background: #13111A;
+    width: 25%;
+    border-image-source: linear-gradient(to left, #A8008A 0.88%, #F9CA72 100.87%);
+    color: white;
+    padding: 5% 1% 5% 1%;
+    border-width: 3%;
+    border-image-slice: 1;
+    border-radius: 22px;
+    cursor: pointer;
+
+}
+
+.q2side {
+    width: 45%;
+    display: inline-block;
+    overflow: hidden;
+    margin-left: 5%;
+    text-align: justify;
+}
+
+/* BLOG PAGE */
+
+.term {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.owner {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+    border-top: #45434e solid;
+
+}
+
+/* STAKE PAGE */
+
+.community {
+    width: 90%;
+    height: 311px;
+    border-radius: 22px;
+    background-color: #1D1A27;
+    display: inline-block;
+    overflow: hidden;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.comm {
+    color: #B7B4C7;
+    margin-left: 4%;
+    margin-top: 3%;
+}
+
+.hand {
+    width: 40%;
+    display: inline-block;
+    overflow: hidden;
+    margin-left: 4%;
+}
+
+.learn {
+    margin-left: 1%;
+    color: #B7B4C7;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.tok {
+    margin-left: 6%;
+    color: #B7B4C7;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.num {
+    width: 20%;
+    display: inline-block;
+    overflow: hidden;
+    border-left: #B7B4C7 ridge;
+}
+
+.numbers {
+    margin-left: 18%;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 39%;
+    overflow: hidden;
+
+}
+
+.num-statement {
+    color: #B7B4C7;
+    margin-left: 16%;
+    margin-bottom: 9%;
+    overflow: hidden;
+
+}
+
+.stake-num {
+    width: 20%;
+    display: inline-block;
+    overflow: hidden;
+    color: white;
+    font-weight: bold;
+    margin-left: 15%;
+    margin-bottom: 9%;
+    font-size: x-large;
+
+}
+
+.gradient-bless {
+    height: 230px;
+    width: 33%;
+    border-radius: 22px;
+    background: linear-gradient(91.02deg, #A8008A 0.88%, #F9CA72 100.87%);
+    box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.1);
+    border-radius: 22px;
+    margin-left: 5%;
+    margin-top: 5%;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.grad-statement {
+    color: white;
+    margin-left: 5%;
+    font-size: large;
+}
+
+.zero {
+    font-size: x-large;
+    color: #00E1FF;
+    font-weight: bolder;
+    margin-left: 6%;
+    margin-top: 2%;
+}
+
+.btn-bless {
+    background-color: #302C3F;
+    border-radius: 22px;
+    width: 30%;
+    padding: 2% 4% 2% 4%;
+    margin-bottom: 2%;
+    color: white;
+    border: none;
+    margin-left: 4%;
+    cursor: pointer;
+}
+
+.gradient-claim {
+    height: 230px;
+    width: 54%;
+    border-radius: 22px;
+    background: linear-gradient(91.02deg, #A8008A 0.88%, #F9CA72 100.87%);
+    box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.1);
+    border-radius: 22px;
+    margin-left: 3%;
+    margin-top: 5%;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.div-claim {
+    display: inline-block;
+    overflow: hidden;
+    width: 23%;
+    margin-left: 7%;
+}
+
+.grad-claim {
+
+    color: white;
+    font-size: large;
+}
+
+.div-rewards {
+    display: inline-block;
+    overflow: hidden;
+    width: 25%;
+
+
+}
+
+.grad-rewards {
+
+    color: white;
+    font-size: large;
+}
+
+.div-stake {
+    display: inline-block;
+    overflow: hidden;
+    width: 28%;
+}
+
+.grad-stake {
+
+    color: white;
+    font-size: large;
+}
+
+.btn-gradient {
+    background-color: #302C3F;
+    border-radius: 22px;
+    width: 20%;
+    padding: 2% 3% 2% 3%;
+    margin-bottom: 2%;
+    color: white;
+    border: none;
+    margin-left: 4%;
+    cursor: pointer;
+}
+
+.unstake-hand {
+    height: 500px;
+    width: 45%;
+    border-radius: 22px;
+    margin-left: 5%;
+    margin-top: 5%;
+    background-color: #1D1A27;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.unstake-div {
+    margin-top: 6%;
+    margin-left: 5%;
+    text-align: justify;
+}
+
+.stake-div {
+    margin-top: 6%;
+    margin-left: 5%;
+    text-align: justify;
+    width: 80%;
+}
+
+.stake-hand {
+    height: 500px;
+    width: 44%;
+    left: 121px;
+    top: 774px;
+    border-radius: 22px;
+    margin-left: 1%;
+    margin-top: 5%;
+    background-color: #1D1A27;
+    display: inline-block;
+    overflow: hidden;
+}
+.num-button{
+    border-radius: 22px;
+    background-color: #B7B4C7;
+    color: white;
+    width: 20%;
+    padding: 2% 3% 2% 3%;
+    border: none;
+}
+
+.num-button1{
+    border-radius: 22px;
+    background-color: #B7B4C7;
+    color: white;
+    width: 40%;
+    padding: 2% 3% 2% 3%;
+    border: none;
+}
+
+.stake-section1{
+    width: 50%;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.stake-section2{
+    width: 40%;
+    display: inline-block;
+    overflow: hidden;
+    margin-left: 9%;
+}
+
+.btn-stake{
+    background: #13111A;
+    width: 90%;
+    border-image-source: linear-gradient(to left, #A8008A 0.88%, #F9CA72 100.87%);
+    color: white;
+    padding: 4% 7% 4% 7%;
+    border-width: 3%;
+    border-image-slice: 1;
+    border-radius: 22px;
+    cursor: pointer;
+    margin-top: 6%;
+}
+
+.btn-unstake{
+    background: #13111A;
+    width: 110%;
+    border-image-source: linear-gradient(to left, #A8008A 0.88%, #F9CA72 100.87%);
+    color: white;
+    padding: 4% 7% 4% 7%;
+    border-width: 3%;
+    border-image-slice: 1;
+    border-radius: 22px;
+    cursor: pointer;
+    margin-top: 6%;
+}
+
+
+/* BLESS PAGE */
+.bless-main {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.bless-txtarea {
+    width: 40%;
+    display: inline-block;
+    overflow: hidden;
+    text-align: justify;
+    margin-left: 5%;
+}
+
+.bless-heading{
+    color: white;
+    font-weight: bold;
+    font-size: 280%;
+}
+
+.btn-whitepaper{
+    background: #13111A;
+    width: 35%;
+    border-image-source: linear-gradient(to left, #A8008A 0.88%, #F9CA72 100.87%);
+    color: white;
+    padding: 5% 1% 5% 1%;
+    border-width: 3%;
+    border-image-slice: 1;
+    border-radius: 22px;
+    cursor: pointer;
+
+}
+
+.whitepaper{
+    width: 40%;
+    display: inline-block;
+    overflow: hidden;
+    margin-left: 5%;
+    height: 850px;
+}
